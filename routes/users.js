@@ -1,9 +1,9 @@
-const express = require('express');
+const express = require('express'); //getting express package
 const router = express.Router();
 const bcrypt = require('bcryptjs');
 const passport = require('passport');
 // Load User model
-const User = require('../models/User');
+const User = require('../models/User');  //getting the model
 const { forwardAuthenticated } = require('../config/auth');
 
 // Login Page

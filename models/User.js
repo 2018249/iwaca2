@@ -1,6 +1,6 @@
-const mongoose = require('mongoose');
+const mongoose = require('mongoose'); //create const to access package mongoose
 
-const UserSchema = new mongoose.Schema({
+const UserSchema = new mongoose.Schema({  //define schema of database and structure
   name: {
     type: String,
     required: true
